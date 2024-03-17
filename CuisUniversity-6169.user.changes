@@ -1,0 +1,2091 @@
+
+
+----STARTUP---- (9 March 2024 18:26:32) as C:\Users\Sofia\Documents\Facultad\Fiuba\2024\1c\ing de software 1\windows64\CuisUniversity-6169.image!
+
+
+----SNAPSHOT----(9 March 2024 18:49:44) CuisUniversity-6169.image priorSource: 6245038!
+
+----SNAPSHOT----(9 March 2024 18:50:27) CuisUniversity-6169.image priorSource: 6245274!
+
+Transcript show: 'Hello World!!'!
+
+Transcript show: 'Hello World!!'!
+
+----SNAPSHOT----(9 March 2024 18:59:01) CuisUniversity-6169.image priorSource: 6245363!
+
+----SNAPSHOT----(9 March 2024 18:59:39) CuisUniversity-6169.image priorSource: 6245522!
+
+----STARTUP---- (9 March 2024 19:03:11) as C:\Users\Sofia\Documents\Facultad\Fiuba\2024\1c\ing de software 1\windows64\CuisUniversity-6169.image!
+
+
+Transcript show: (3 factorial);cr.!
+
+Transcript show: ('Hello' indexOf: $e)!
+
+Object subclass: #Spacewar
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+
+----STARTUP---- (9 March 2024 22:22:24) as C:\Users\Sofia\Documents\Facultad\Fiuba\2024\1c\ing de software 1\windows64\CuisUniversity-6169.image!
+
+
+Object subclass: #Spacewar
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+
+!classDefinition: #Spacewar category: #Spacewar stamp: 'SGB 3/9/2024 22:24:03'!
+Object subclass: #Spacewar
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+
+Object subclass: #CentralStar
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+
+!classDefinition: #CentralStar category: #Spacewar stamp: 'SGB 3/9/2024 22:26:12'!
+Object subclass: #CentralStar
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+
+CentralStar class
+	instanceVariableNames: ''!
+
+!classDefinition: 'CentralStar class' category: #Spacewar stamp: 'SGB 3/9/2024 22:26:12'!
+CentralStar class
+	instanceVariableNames: ''!
+
+Object subclass: #Torpedo
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+
+!classDefinition: #Torpedo category: #Spacewar stamp: 'SGB 3/9/2024 22:28:41'!
+Object subclass: #Torpedo
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+
+Torpedo class
+	instanceVariableNames: ''!
+
+!classDefinition: 'Torpedo class' category: #Spacewar stamp: 'SGB 3/9/2024 22:28:41'!
+Torpedo class
+	instanceVariableNames: ''!
+
+Object subclass: #Extra
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+
+!classDefinition: #Extra category: #Spacewar stamp: 'SGB 3/9/2024 22:28:53'!
+Object subclass: #Extra
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+
+!classRemoval: #Extra stamp: 'SGB 3/9/2024 22:29:07'!
+Object subclass: #Extra
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+
+Object subclass: #Spaceship
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+
+!classDefinition: #Spaceship category: #Spacewar stamp: 'SGB 3/9/2024 22:32:06'!
+Object subclass: #Spaceship
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+
+----STARTUP---- (9 March 2024 22:37:26) as C:\Users\Sofia\Documents\Facultad\Fiuba\2024\1c\ing de software 1\windows64\CuisUniversity-6169.image!
+
+
+----End fileIn of C:\Users\Sofia\Documents\Facultad\Fiuba\2024\1c\ing de software 1\windows64-UserFiles\NewPackages\Spacewar.pck.st----!
+!Spacewar methodsFor: 'no messages' stamp: 'SGB 3/9/2024 22:44:47'!
+new
+	"Creates a spacewar"
+	^self! !
+
+1 to: 10 do: [:i | Transcript show: 1 / i; space]!
+
+Object subclass: #Spacewar
+	instanceVariableNames: 'centralStar ships torpedos'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+
+!classDefinition: #Spacewar category: #Spacewar stamp: 'SGB 3/10/2024 15:24:09'!
+Object subclass: #Spacewar
+	instanceVariableNames: 'centralStar ships torpedos'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+
+Object subclass: #CentralStar
+	instanceVariableNames: 'mass'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+
+!classDefinition: #CentralStar category: #Spacewar stamp: 'SGB 3/10/2024 15:25:22'!
+Object subclass: #CentralStar
+	instanceVariableNames: 'mass'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+
+Object subclass: #Spaceship
+	instanceVariableNames: 'name position'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+
+!classDefinition: #Spaceship category: #Spacewar stamp: 'SGB 3/10/2024 15:25:31'!
+Object subclass: #Spaceship
+	instanceVariableNames: 'name position'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+
+Object subclass: #Spaceship
+	instanceVariableNames: 'name position heading velocity fuel torpedos mass aceleration'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+
+!classDefinition: #Spaceship category: #Spacewar stamp: 'SGB 3/10/2024 15:26:10'!
+Object subclass: #Spaceship
+	instanceVariableNames: 'name position heading velocity fuel torpedos mass aceleration'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+
+Object subclass: #Torpedo
+	instanceVariableNames: 'position heading velocity lifeSpan'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+
+!classDefinition: #Torpedo category: #Spacewar stamp: 'SGB 3/10/2024 15:26:36'!
+Object subclass: #Torpedo
+	instanceVariableNames: 'position heading velocity lifeSpan'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+!Spaceship methodsFor: 'nil' stamp: 'SGB 3/10/2024 15:28:51'!
+mass
+	"Returns the mass of the Spaceship"
+
+	^mass! !
+!Spaceship methodsFor: 'nil' stamp: 'SGB 3/10/2024 15:29:44'!
+position
+	"Returns the possition of the spaceship"
+
+	^position! !
+!Spaceship methodsFor: 'nil' stamp: 'SGB 3/10/2024 15:30:08'!
+velocity
+	"Returns the velocity of the spaceship"
+
+	^velocity! !
+!Spaceship methodsFor: 'nil' stamp: 'SGB 3/10/2024 15:32:10'!
+name: aString
+	"Sets the name of the spaceship"
+
+	name := aString! !
+!Spaceship methodsFor: 'nil' stamp: 'SGB 3/10/2024 15:45:39'!
+left
+	"Shifts the ship heading to the left"
+
+	heading := heading - 0.1! !
+!Spaceship methodsFor: 'nil' stamp: 'SGB 3/10/2024 15:45:55'!
+right
+	"Shifts the ship heading to the right"
+
+	heading := heading + 0.1! !
+
+!classDefinition: #Spaceship category: #Spacewar stamp: 'SGB 3/10/2024 15:47:28'!
+Object subclass: #Spaceship
+	instanceVariableNames: 'name position heading velocity fuel torpedos mass aceleration acceleration'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+!Spaceship methodsFor: 'nil' stamp: 'SGB 3/10/2024 15:47:17' overrides: 16932297!
+initialize
+	"comment stating purpose of message"
+
+	super initialize.
+	velocity :=  0 @ 0.
+	position  := 100 @ 100.
+	acceleration  := 0! !
+
+Object subclass: #Spaceship
+	instanceVariableNames: 'name position heading velocity fuel torpedos mass acceleration'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+
+!classDefinition: #Spaceship category: #Spacewar stamp: 'SGB 3/10/2024 15:47:36'!
+Object subclass: #Spaceship
+	instanceVariableNames: 'name position heading velocity fuel torpedos mass acceleration'
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Spacewar'!
+
+| spaceship |
+Transcript show: 'Hello World!!'; cr.
+1 to: 10 do: [:i | Transcript show: 1 / i; space]; cr.
+spaceship  Spaceship.
+spaceship name: 'Spaceship 1'.
+Transcript show: (spaceship name); cr.!
+
+| spaceship |
+Transcript show: 'Hello World!!'; cr.
+1 to: 10 do: [:i | Transcript show: 1 / i; space]; cr.
+spaceship  Spaceship.!
+
+| spaceship |
+Transcript show: 'Hello World!!'; cr.
+1 to: 10 do: [:i | Transcript show: 1 / i; space]; cr.
+spaceship  Spaceship.!
+
+| spaceship |
+Transcript show: 'Hello World!!'; cr.
+1 to: 10 do: [:i | Transcript show: 1 / i; space]; cr.
+spaceship  Spaceship new.
+"spaceship name: 'Spaceship 1'.
+Transcript show: (spaceship name); cr."!
+
+| spaceship |
+Transcript show: 'Hello World!!'; cr.
+1 to: 10 do: [:i | Transcript show: 1 / i; space]; cr.
+spaceship  Spaceship new.!
+!Spaceship methodsFor: 'nil' stamp: 'SGB 3/10/2024 16:05:03'!
+new
+	"creates a new spaceship"
+
+	^super new initialize.! !
+
+	^super new initialize.!
+
+| spaceship |
+Transcript show: 'Hello World!!'; cr.
+1 to: 10 do: [:i | Transcript show: 1 / i; space]; cr.
+spaceship  Spaceship new.
+spaceship name: 'Spaceship 1'.
+Transcript show: (spaceship name); cr.!
+
+| spaceship |
+Transcript show: 'Hello World!!'; cr.
+1 to: 10 do: [:i | Transcript show: 1 / i; space]; cr.
+spaceship  Spaceship new.!
+
+| spaceship |
+Transcript show: 'Hello World!!'; cr.
+1 to: 10 do: [:i | Transcript show: 1 / i; space]; cr.
+spaceship := Spaceship new.!
+
+| spaceship |
+Transcript show: 'Hello World!!'; cr.
+1 to: 10 do: [:i | Transcript show: 1 / i; space]; cr.
+spaceship := Spaceship new.!
+
+| spaceship |
+spaceship := Spaceship new.
+Transcript show: 'La nave espacial fue creada'; cr.!
+
+----STARTUP---- (10 March 2024 16:09:21) as C:\Users\Sofia\Documents\Facultad\Fiuba\2024\1c\ing de software 1\windows64\CuisUniversity-6169.image!
+
+
+----End fileIn of C:\Users\Sofia\Documents\Facultad\Fiuba\2024\1c\ing de software 1\windows64-UserFiles\NewPackages\Spacewar.pck.st----!
+
+!methodRemoval: Spaceship #new stamp: 'SGB 3/10/2024 17:02:46'!
+new
+	"creates a new spaceship"
+
+	^super new initialize.!
+!Spaceship class methodsFor: 'no messages' stamp: 'SGB 3/10/2024 17:02:59' overrides: 16787772!
+new
+	"creates a new spaceship"
+
+	^super new initialize.! !
+
+|spaceship|
+spaceship := Spaceship new.!
+!Spaceship class methodsFor: 'as yet unclassified' stamp: 'SGB 3/10/2024 17:09:05' prior: 50527307 overrides: 16787772!
+new
+	"creates a new spaceship"
+
+	^super new initialize! !
+
+|spaceship|
+spaceship := Spaceship new.!
+
+|spaceship|
+spaceship := Spaceship new.
+Transcript show: 'La nave espacial fue creada'; cr.!
+
+|spaceship|
+spaceship := Spaceship new.
+Transcript show: 'La nave espacial fue creada'; cr.
+spaceship name: 'Spaceship 1'.!
+
+Transcript show: (spaceship name); cr.!
+
+|spaceship|
+spaceship := Spaceship new.
+Transcript show: 'La nave espacial fue creada'; cr.
+spaceship name: 'Spaceship 1'.
+Transcript show: (spaceship name); cr.!
+
+|spaceship|
+spaceship := Spaceship new.
+
+spaceship name: 'Spaceship 1'.
+Transcript show: (spaceship name); cr.!
+!Spaceship methodsFor: 'as yet unclassified' stamp: 'SGB 3/10/2024 17:12:28'!
+setName: aString
+	"Sets the name of the spaceship"
+
+	name := aString! !
+!Spaceship methodsFor: 'as yet unclassified' stamp: 'SGB 3/10/2024 17:12:49'!
+getName
+	"Returns the name of the spaceship"
+
+	^name! !
+
+!methodRemoval: Spaceship #name: stamp: 'SGB 3/10/2024 17:12:56'!
+name: aString
+	"Sets the name of the spaceship"
+
+	name := aString!
+
+|spaceship|
+spaceship := Spaceship new.
+
+spaceship setName: 'Spaceship 1'.
+Transcript show: (spaceship getName); cr.
+!
+
+| fileNames |
+fileNames :=  OrderedCollection new.
+(DirectoryEntry smalltalkImageDirectory)
+childrenDo: [ :f | fileNames add: f name ].
+fileNames asArray.
+!
+
+|spaceship|
+spaceship := Spaceship new.
+
+spaceship setName: 'Spaceship 1'.
+Transcript show: (spaceship getName); cr.
+!
+
+----SNAPSHOT----(10 March 2024 19:24:16) CuisUniversity-6169.image priorSource: 6245611!
+
+----SNAPSHOT----(10 March 2024 19:27:20) CuisUniversity-6169.image priorSource: 6262795!
+
+----SNAPSHOT----(10 March 2024 19:43:59) CuisUniversity-6169.image priorSource: 6262885!
+
+----SNAPSHOT----(10 March 2024 19:44:07) CuisUniversity-6169.image priorSource: 6262975!
+
+----STARTUP---- (14 March 2024 11:38:59) as C:\Users\Sofia\Documents\Facultad\Fiuba\2024\1c\ing de software 1\windows64\CuisUniversity-6169.image!
+
+
+1.!
+
+-1.!
+
+3.14.!
+
+false.!
+
+true.!
+
+true.!
+
+3.14.!
+
+true.!
+
+false.!
+
+nil.!
+
+meter.!
+
+centimeter.!
+
+hour.!
+
+minute.!
+
+day.!
+
+March.!
+
+Monday.!
+
+'hola'.!
+
+$h.!
+
+!classDefinition: #AlanTuring category: #'Workspace-Objects' stamp: 'SGB 3/14/2024 13:23:39'!
+DenotativeObject subclass: #AlanTuring
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Workspace-Objects'!
+
+AlanTuring.!
+
+AlanTuring.!
+
+AlanTuring.!
+
+!classRemoval: #AlanTuring stamp: 'SGB 3/14/2024 13:29:09'!
+DenotativeObject subclass: #AlanTuring
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Workspace-Objects'!
+
+!classDefinition: #AlanTuring category: #'Workspace-Objects' stamp: 'SGB 3/14/2024 13:29:16'!
+DenotativeObject subclass: #AlanTuring
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Workspace-Objects'!
+
+AlanTuring.!
+
+!classRemoval: #AlanTuring stamp: 'SGB 3/14/2024 13:31:21'!
+DenotativeObject subclass: #AlanTuring
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Workspace-Objects'!
+
+10 factorial.!
+
+100 factorial.!
+
+100 factorial / 99 factorial.!
+
+true not.!
+
+false not.!
+
+true & true.!
+
+true & false.!
+
+true | false.!
+
+false | false.!
+
+10*meter.!
+
+(10*meter)+(20*meter).!
+
+(10*meter)+(200*centimeter).!
+
+10*hour.!
+
+(10*hour)+(60*minute)!
+
+(10*hour)+(60*minute) convertTo: hour!
+
+March/21.!
+
+March/21/2019.!
+
+January/1/2019 distanceTo: March/21/2019.!
+
+March/21/2019 at: 18:30.!
+
+ObjectBuilder create: #UnObjeto asChildOf: DenotativeObject collaboratorNames: '' in: 'AprendiendoObjetos'!
+
+!classDefinition: #UnObjeto category: #AprendiendoObjetos stamp: 'SGB 3/14/2024 13:37:04'!
+DenotativeObject subclass: #UnObjeto
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'AprendiendoObjetos'!
+
+!classDefinition: 'UnObjeto class' category: #AprendiendoObjetos stamp: 'SGB 3/14/2024 13:37:04'!
+UnObjeto class
+	instanceVariableNames: ''!
+!UnObjeto class methodsFor: '-- all --' stamp: 'SGB 3/14/2024 13:40:22'!
+encender! !
+!UnObjeto class methodsFor: '-- all --' stamp: 'SGB 3/14/2024 13:41:59'!
+apagar! !
+!UnObjeto class methodsFor: '-- all --' stamp: 'SGB 3/14/2024 13:42:08'!
+acelerar! !
+!UnObjeto class methodsFor: '-- all --' stamp: 'SGB 3/14/2024 13:42:17'!
+frenar! !
+!UnObjeto class methodsFor: '-- all --' stamp: 'SGB 3/14/2024 13:46:28'!
+abrirBaul! !
+
+!classRenamed: #UnObjeto as: #Auto stamp: 'SGB 3/14/2024 13:46:35'!
+Smalltalk renameClassNamed: #UnObjeto as: #Auto!
+!Auto class methodsFor: '-- all --' stamp: 'SGB 3/14/2024 13:49:44'!
+licuar! !
+!Auto class methodsFor: '-- all --' stamp: 'SGB 3/14/2024 13:49:50'!
+rebanar! !
+!Auto class methodsFor: '-- all --' stamp: 'SGB 3/14/2024 13:49:57'!
+amasar! !
+
+!classDefinition: #AlanTuring category: #'Workspace-Objects' stamp: 'SGB 3/14/2024 13:58:33'!
+DenotativeObject subclass: #AlanTuring
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Workspace-Objects'!
+
+AlanTuring.!
+
+!classRemoval: #AlanTuring stamp: 'SGB 3/14/2024 13:59:51'!
+DenotativeObject subclass: #AlanTuring
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Workspace-Objects'!
+
+ObjectBuilder create: #AlanTuring asChildOf: DenotativeObject collaboratorNames: '' in: 'AprendiendoObjetos'!
+
+!classDefinition: #AlanTuring category: #AprendiendoObjetos stamp: 'SGB 3/14/2024 14:17:03'!
+DenotativeObject subclass: #AlanTuring
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'AprendiendoObjetos'!
+
+!classDefinition: 'AlanTuring class' category: #AprendiendoObjetos stamp: 'SGB 3/14/2024 14:17:03'!
+AlanTuring class
+	instanceVariableNames: ''!
+
+AlanTuring fechaDeNacimiento.!
+
+AlanTuring printString.!
+
+AlanTuring fechaDeNacimiento.!
+!AlanTuring class methodsFor: 'infoPersonal' stamp: 'SGB 3/14/2024 14:25:07'!
+fechaDeNacimiento
+	self shouldBeImplemented.! !
+!AlanTuring class methodsFor: 'infoPersonal' stamp: 'SGB 3/14/2024 14:25:51' prior: 50527502!
+fechaDeNacimiento
+	^June/23/1912.! !
+
+ObjectBuilder create: #JohnVonNeumann asChildOf: DenotativeObject collaboratorNames: '' in: 'AprendiendoObjetos'!
+
+!classDefinition: #JohnVonNeumann category: #AprendiendoObjetos stamp: 'SGB 3/14/2024 14:30:49'!
+DenotativeObject subclass: #JohnVonNeumann
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'AprendiendoObjetos'!
+
+!classDefinition: 'JohnVonNeumann class' category: #AprendiendoObjetos stamp: 'SGB 3/14/2024 14:30:49'!
+JohnVonNeumann class
+	instanceVariableNames: ''!
+!JohnVonNeumann class methodsFor: '-- all --' stamp: 'SGB 3/14/2024 14:31:07'!
+fechaDeNacimiento
+	^December/28/1903! !
+
+JohnVonNeumann fechaDeNacimiento inspect!
+
+JohnVonNeumann fechaDeNacimiento inspect!
+
+fechaDeNacimiento asMessage sendTo: JohnVonNeumann.!
+
+asMessage!
+
+fechaDeNacimiento!
+
+fechaDeNacimiento asMessage sendTo: JohnVonNeumann.!
+
+fechaDeNacimiento asMessage!
+
+fechaDeNacimiento asMessage.!
+
+fechaDeNacimiento asMessage.!
+
+fechaDeNacimiento!
+
+fechaDeNacimiento asMessage sendTo: JohnVonNeumann.!
+
+AlanTuring fechaDeNacimiento asMessage sendTo: JohnVonNeumann.!
+
+AlanTuring fechaDeNacimiento asMessage sendTo: JohnVonNeumann.!
+
+fechaDeNacimiento asMessage sendTo: JohnVonNeumann.!
+
+fechaDeNacimiento asMessage sendTo: JohnVonNeumann.!
+
+fechaDeNacimiento asMessage sendTo: JohnVonNeumann.!
+
+fechaDeNacimiento asMessage sendTo: JohnVonNeumann.!
+
+fechaDeNacimiento!
+
+fechaDeNacimiento asMessage.!
+
+AlanTuring asMessage sendTo: JohnVonNeumann.!
+
+fechaDeNacimiento.!
+
+self sendTo: AlanTuring.!
+
+self sendTo: JohnVonNeumann.!
+
+self sendTo: JohnVonNeumann.!
+
+x!
+
+x!
+
+Monday.!
+
+AlanTuring.!
+
+AlanTuring.!
+
+1.!
+
+$h.!
+
+$h inspect.!
+
+fechaDeNacimiento.!
+
+fechaDeNacimiento inspect.!
+
+fechaDeNacimiento inspect.!
+
+fechaDeNacimiento.!
+
+fechaDeNacimiento.!
+
+fechaDeNacimiento.!
+
+self sendTo: AlanTuring.!
+
+self sendTo: JohnVonNeumann.!
+
+self sendTo: JohnVonNeumann.!
+
+AlanTuring fechaDeNacimiento.!
+
+$h.!
+
+   x inspect!
+
+x := Interval from: 1 to: 5.
+   x inspect!
+
+asMessage inspect.!
+
+fechaDeNacimiento asMessage.!
+
+fechaDeNacimiento asMessage.!
+
+asMessage inspect.!
+
+fechaDeNacimiento asMessage sendTo: JohnVonNeumann.!
+
+asMessage inspect.!
+
+asMessage inspect.!
+
+asMessage inspect.!
+
+asMessage inspect.!
+
+fechaDeNacimiento asMessage sendTo: JohnVonNeumann.!
+
+sendTo inspect.!
+
+AlanTuring methodNamed: fechaDeNacimiento.!
+
+AlanTuring methodNamed: #fechaDeNacimiento.!
+
+#fechaDeNacimiento asMessage.!
+
+self sendTo: AlanTuring.!
+
+self sendTo: asString.!
+
+AlanTuring methodNamed: #fechaDeNacimiento.!
+
+AlanTuring methodNamed: #fechaDeNacimiento inspect.!
+
+ (AlanTuring class>>#fechaDeNacimiento "a CompiledMethod:58(3898285)") .!
+
+AlanTuring methodNamed: #fechaDeNacimiento inspect.!
+
+ArrayedCollection!
+
+fechaDeNacimiento asString.!
+
+fechaDeNacimiento asMessage asString.!
+
+(AlanTuring class>>#fechaDeNacimiento "a CompiledMethod:58(3898285)") .!
+
+AlanTuring methodNamed: #fechaDeNacimiento inspect.!
+
+self sourceCode.!
+
+self sourceCode.!
+
+self linesOfCode.!
+
+AlanTuring methodNamed: #fechaDeNacimiento.!
+
+self sourceCode.!
+
+self linesOfCode.!
+
+self valueWithReceiver: AlanTuring arguments: #().!
+
+self valueWithReceiver: JohnVonNeumann arguments: #().!
+
+self argument.!
+
+self argument.!
+
+#fechaDeNacimiento asMessage.!
+
+self argument.!
+
+self arguments.!
+
+self has arguments.!
+
+self hasArguments.!
+
+self fullName.!
+
+self fullName.!
+
+self asString.!
+
+self author.!
+
+self category.!
+
+self class.!
+
+#fechaDeNacimiento asMessage sendTo: JohnVonNeumann.!
+
+#fechaDeNacimiento asMessage sendTo: JohnVonNeumann.!
+
+JohnVonNeumann fechaDeNacimiento.!
+
+----STARTUP---- (17 March 2024 12:49:56) as C:\Users\Sofia\Documents\Facultad\Fiuba\2024\1c\ing de software 1\windows64\CuisUniversity-6169.image!
+
+
+!classDefinition: #AlanTuring category: #'Workspace-Objects' stamp: 'SGB 3/17/2024 12:50:02'!
+DenotativeObject subclass: #AlanTuring
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Workspace-Objects'!
+
+!classRemoval: #AlanTuring stamp: 'SGB 3/17/2024 12:50:02'!
+DenotativeObject subclass: #AlanTuring
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Workspace-Objects'!
+
+!classDefinition: #AlanTuring category: #'Workspace-Objects' stamp: 'SGB 3/17/2024 12:50:02'!
+DenotativeObject subclass: #AlanTuring
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Workspace-Objects'!
+
+!classRemoval: #AlanTuring stamp: 'SGB 3/17/2024 12:50:02'!
+DenotativeObject subclass: #AlanTuring
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Workspace-Objects'!
+
+!classDefinition: #UnObjeto category: #AprendiendoObjetos stamp: 'SGB 3/17/2024 12:50:02'!
+DenotativeObject subclass: #UnObjeto
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'AprendiendoObjetos'!
+
+!classDefinition: 'UnObjeto class' category: #AprendiendoObjetos stamp: 'SGB 3/17/2024 12:50:02'!
+UnObjeto class
+	instanceVariableNames: ''!
+
+!classDefinition: #UnObjeto category: #AprendiendoObjetos stamp: 'SGB 3/17/2024 12:50:02'!
+DenotativeObject subclass: #UnObjeto
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'AprendiendoObjetos'!
+
+!classDefinition: 'UnObjeto class' category: #AprendiendoObjetos stamp: 'SGB 3/17/2024 12:50:02'!
+UnObjeto class
+	instanceVariableNames: ''!
+!UnObjeto class methodsFor: '-- all --' stamp: 'SGB 3/14/2024 13:40:22'!
+encender! !
+!UnObjeto class methodsFor: '-- all --' stamp: 'SGB 3/14/2024 13:41:59'!
+apagar! !
+!UnObjeto class methodsFor: '-- all --' stamp: 'SGB 3/14/2024 13:42:08'!
+acelerar! !
+!UnObjeto class methodsFor: '-- all --' stamp: 'SGB 3/14/2024 13:42:17'!
+frenar! !
+!UnObjeto class methodsFor: '-- all --' stamp: 'SGB 3/14/2024 13:46:28'!
+abrirBaul! !
+
+!classRenamed: #UnObjeto as: #Auto stamp: 'SGB 3/17/2024 12:50:03'!
+Smalltalk renameClassNamed: #UnObjeto as: #Auto!
+!Auto class methodsFor: '-- all --' stamp: 'SGB 3/14/2024 13:49:44'!
+licuar! !
+!Auto class methodsFor: '-- all --' stamp: 'SGB 3/14/2024 13:49:50'!
+rebanar! !
+!Auto class methodsFor: '-- all --' stamp: 'SGB 3/14/2024 13:49:57'!
+amasar! !
+
+!classDefinition: #AlanTuring category: #'Workspace-Objects' stamp: 'SGB 3/17/2024 12:50:03'!
+DenotativeObject subclass: #AlanTuring
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Workspace-Objects'!
+
+!classRemoval: #AlanTuring stamp: 'SGB 3/17/2024 12:50:03'!
+DenotativeObject subclass: #AlanTuring
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'Workspace-Objects'!
+
+!classDefinition: #AlanTuring category: #AprendiendoObjetos stamp: 'SGB 3/17/2024 12:50:03'!
+DenotativeObject subclass: #AlanTuring
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'AprendiendoObjetos'!
+
+!classDefinition: 'AlanTuring class' category: #AprendiendoObjetos stamp: 'SGB 3/17/2024 12:50:03'!
+AlanTuring class
+	instanceVariableNames: ''!
+
+!classDefinition: #AlanTuring category: #AprendiendoObjetos stamp: 'SGB 3/17/2024 12:50:03'!
+DenotativeObject subclass: #AlanTuring
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'AprendiendoObjetos'!
+
+!classDefinition: 'AlanTuring class' category: #AprendiendoObjetos stamp: 'SGB 3/17/2024 12:50:03'!
+AlanTuring class
+	instanceVariableNames: ''!
+!AlanTuring class methodsFor: 'infoPersonal' stamp: 'SGB 3/14/2024 14:25:07'!
+fechaDeNacimiento
+	self shouldBeImplemented.! !
+!AlanTuring class methodsFor: 'infoPersonal' stamp: 'SGB 3/14/2024 14:25:51' prior: 50527744!
+fechaDeNacimiento
+	^June/23/1912.! !
+
+!classDefinition: #JohnVonNeumann category: #AprendiendoObjetos stamp: 'SGB 3/17/2024 12:50:03'!
+DenotativeObject subclass: #JohnVonNeumann
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'AprendiendoObjetos'!
+
+!classDefinition: 'JohnVonNeumann class' category: #AprendiendoObjetos stamp: 'SGB 3/17/2024 12:50:03'!
+JohnVonNeumann class
+	instanceVariableNames: ''!
+
+!classDefinition: #JohnVonNeumann category: #AprendiendoObjetos stamp: 'SGB 3/17/2024 12:50:03'!
+DenotativeObject subclass: #JohnVonNeumann
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'AprendiendoObjetos'!
+
+!classDefinition: 'JohnVonNeumann class' category: #AprendiendoObjetos stamp: 'SGB 3/17/2024 12:50:03'!
+JohnVonNeumann class
+	instanceVariableNames: ''!
+!JohnVonNeumann class methodsFor: '-- all --' stamp: 'SGB 3/14/2024 14:31:07'!
+fechaDeNacimiento
+	^December/28/1903! !
+
+ObjectBuilder create: #Goliat asChildOf: DenotativeObject collaboratorNames: '' in: 'CombatientesFantasticos'!
+
+!classDefinition: #Goliat category: #CombatientesFantasticos stamp: 'SGB 3/17/2024 12:51:08'!
+DenotativeObject subclass: #Goliat
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'CombatientesFantasticos'!
+
+!classDefinition: 'Goliat class' category: #CombatientesFantasticos stamp: 'SGB 3/17/2024 12:51:08'!
+Goliat class
+	instanceVariableNames: ''!
+
+ObjectBuilder create: #David asChildOf: DenotativeObject collaboratorNames: '' in: 'CombatientesFantasticos'!
+
+!classDefinition: #David category: #CombatientesFantasticos stamp: 'SGB 3/17/2024 12:51:46'!
+DenotativeObject subclass: #David
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'CombatientesFantasticos'!
+
+!classDefinition: 'David class' category: #CombatientesFantasticos stamp: 'SGB 3/17/2024 12:51:46'!
+David class
+	instanceVariableNames: ''!
+!Goliat class methodsFor: 'no messages' stamp: 'SGB 3/17/2024 12:53:27'!
+estaSano
+! !
+
+Goliat
+	collaboratorNames: 'vidas'
+	in: 'CombatientesFantasticos'!
+
+!classDefinition: 'Goliat class' category: #CombatientesFantasticos stamp: 'SGB 3/17/2024 12:53:51'!
+Goliat class
+	instanceVariableNames: 'vidas'!
+
+!classDefinition: #Goliat category: #CombatientesFantasticos stamp: 'SGB 3/17/2024 12:53:52'!
+DenotativeObject subclass: #Goliat
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'CombatientesFantasticos'!
+
+!classDefinition: 'Goliat class' category: #CombatientesFantasticos stamp: 'SGB 3/17/2024 12:53:52'!
+Goliat class
+	instanceVariableNames: 'vidas'!
+!Goliat class methodsFor: 'public' stamp: 'SGB 3/17/2024 12:54:25'!
+recibirDaño: cantidadDeDaño
+	vidas := vidas - cantidadDeDaño! !
+
+	vidas !
+!Goliat class methodsFor: 'public' stamp: 'SGB 3/17/2024 12:55:48' overrides: 16916096!
+initialize
+	vidas := 20! !
+!Goliat class methodsFor: 'public' stamp: 'SGB 3/17/2024 12:56:31'!
+estaDañadoPor: cantidadDañado
+	^cantidadDañado = (20 - vidas)! !
+
+ObjectBuilder create: #TestsCombatientesFantasticos asChildOf: DenotativeObject collaboratorNames: '' in: 'CombatientesFantasticos'!
+
+!classDefinition: #TestsCombatientesFantasticos category: #CombatientesFantasticos stamp: 'SGB 3/17/2024 12:56:55'!
+DenotativeObject subclass: #TestsCombatientesFantasticos
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'CombatientesFantasticos'!
+
+!classDefinition: 'TestsCombatientesFantasticos class' category: #CombatientesFantasticos stamp: 'SGB 3/17/2024 12:56:55'!
+TestsCombatientesFantasticos class
+	instanceVariableNames: ''!
+!TestsCombatientesFantasticos class methodsFor: 'no messages' stamp: 'SGB 3/17/2024 12:58:22'!
+test_01_Goliat_sabe_recibir_daño
+	Goliat initialize.
+	
+	Goliat recibirDaño: 4.
+	
+	Assert isFalse: Goliat estaSano.! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 12:58:23'!
+ERROR!
+!Goliat class methodsFor: '-- all --' stamp: 'SGB 3/17/2024 13:45:26' prior: 50527813!
+estaSano
+	^vidas = 20! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 13:45:50'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 13:45:50'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 13:45:54'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 13:45:54'!
+PASSED!
+
+David
+	collaboratorNames: 'estrategiaMasHerido estrategiaMenosHerido'
+	in: 'CombatientesFantasticos'!
+
+!classDefinition: 'David class' category: #CombatientesFantasticos stamp: 'SGB 3/17/2024 13:46:29'!
+David class
+	instanceVariableNames: 'estrategiaMasHerido estrategiaMenosHerido'!
+
+!classDefinition: #David category: #CombatientesFantasticos stamp: 'SGB 3/17/2024 13:46:29'!
+DenotativeObject subclass: #David
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'CombatientesFantasticos'!
+
+!classDefinition: 'David class' category: #CombatientesFantasticos stamp: 'SGB 3/17/2024 13:46:29'!
+David class
+	instanceVariableNames: 'estrategiaMasHerido estrategiaMenosHerido'!
+!David class methodsFor: 'no messages' stamp: 'SGB 3/17/2024 13:46:53'!
+atacar! !
+
+David
+	collaboratorNames: 'estrategiaMasHerido estrategiaMenosHerido conjuntoDeEnemigos'
+	in: 'CombatientesFantasticos'!
+
+!classDefinition: 'David class' category: #CombatientesFantasticos stamp: 'SGB 3/17/2024 13:47:24'!
+David class
+	instanceVariableNames: 'estrategiaMasHerido estrategiaMenosHerido conjuntoDeEnemigos'!
+
+!classDefinition: #David category: #CombatientesFantasticos stamp: 'SGB 3/17/2024 13:47:24'!
+DenotativeObject subclass: #David
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'CombatientesFantasticos'!
+
+!classDefinition: 'David class' category: #CombatientesFantasticos stamp: 'SGB 3/17/2024 13:47:24'!
+David class
+	instanceVariableNames: 'estrategiaMasHerido estrategiaMenosHerido conjuntoDeEnemigos'!
+!David class methodsFor: 'public' stamp: 'SGB 3/17/2024 13:48:04'!
+asignarEnemigos: unConjuntoDeEnemigos
+	conjuntoDeEnemigos := unConjuntoDeEnemigos! !
+!David class methodsFor: 'public' stamp: 'SGB 3/17/2024 13:48:27' prior: 50527916!
+atacar
+	(estrategiaMasHerido)! !
+!David class methodsFor: 'public' stamp: 'SGB 3/17/2024 13:49:04'!
+asignarEstrategiaMasHerido
+	estrategiaMasHerido := true.! !
+!David class methodsFor: 'public' stamp: 'SGB 3/17/2024 13:49:17'!
+asignarEstrategiaMenosHerido
+	estrategiaMenosHerido := true.! !
+!David class methodsFor: 'public' stamp: 'SGB 3/17/2024 13:49:42' overrides: 16916096!
+initialize
+	estrategiaMasHerido := true.! !
+!David class methodsFor: 'public' stamp: 'SGB 3/17/2024 13:51:40' prior: 50527949!
+atacar
+	|enemigoAAtacar|
+	(estrategiaMasHerido)
+	ifTrue: [
+		enemigoAAtacar := conjuntoDeEnemigos max: [
+			: enemigo | enemigo ]
+		]! !
+!Goliat class methodsFor: 'public' stamp: 'SGB 3/17/2024 13:52:04'!
+vidas
+	^vidas.! !
+!David class methodsFor: 'public' stamp: 'SGB 3/17/2024 13:53:39' prior: 50527966!
+atacar
+	|enemigoAAtacar|
+	(estrategiaMasHerido)
+	ifTrue: [
+		enemigoAAtacar := conjuntoDeEnemigos max: [
+			: enemigo | enemigo vidas ].
+		]
+	ifFalse: [
+		enemigoAAtacar := conjuntoDeEnemigos min: [
+			: enemigo | enemigo vidas ].
+		].
+	(enemigoAAtacar = nil)
+	ifFalse: [enemigoAAtacar recibirDaño: 4].! !
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 13:55:41'!
+test_02_Davida_ataca_a_Goliat
+	Goliat initialize.
+	David initialize.
+	
+	David atacar.
+	
+	Assert isFalse: Goliat estaSano.! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 13:55:42'!
+ERROR!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 13:55:43'!
+ERROR!
+!David class methodsFor: 'public' stamp: 'SGB 3/17/2024 13:57:20' prior: 50527962 overrides: 16916096!
+initialize
+	estrategiaMasHerido := true.
+	conjuntoDeEnemigos:= Set new.! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 13:57:28'!
+ERROR!
+!David class methodsFor: 'public' stamp: 'SGB 3/17/2024 13:58:54' prior: 50527977!
+atacar
+	|enemigoAAtacar|
+	(conjuntoDeEnemigos size > 0)
+	ifTrue: [
+		(estrategiaMasHerido)
+		ifTrue: [
+			enemigoAAtacar := conjuntoDeEnemigos max: [
+				: enemigo | enemigo vidas ].
+			]
+		ifFalse: [
+			enemigoAAtacar := conjuntoDeEnemigos min: [
+				: enemigo | enemigo vidas ].
+			].
+		(enemigoAAtacar = nil)
+		ifFalse: [enemigoAAtacar recibirDaño: 4].
+	]! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 13:58:58'!
+ERROR!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 13:59:13'!
+test_02_Davida_no_ataca_a_nadie
+	Goliat initialize.
+	David initialize.
+	
+	David atacar.
+	
+	Assert isFalse: Goliat estaSano.! !
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 13:59:26' prior: 50528029!
+test_02_Davida_no_ataca_a_nadie
+	Goliat initialize.
+	David initialize.
+	
+	David atacar.
+	
+	Assert isTrue: Goliat estaSano.! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 13:59:27'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 13:59:27'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 13:59:27'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 13:59:27'!
+ERROR!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 13:59:27'!
+ERROR!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 13:59:40' prior: 50528037!
+test_02_Davida_no_ataca_a_nadie
+	Goliat initialize.
+	David initialize.
+	
+	David atacar.
+	
+	Assert isTrue: Goliat estaSano.! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 13:59:41'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 13:59:41'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 13:59:41'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 13:59:41'!
+ERROR!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 13:59:41'!
+ERROR!
+
+!methodRemoval: TestsCombatientesFantasticos class #test_02_Davida_ataca_a_Goliat stamp: 'SGB 3/17/2024 14:00:13'!
+test_02_Davida_ataca_a_Goliat
+	Goliat initialize.
+	David initialize.
+	
+	David atacar.
+	
+	Assert isFalse: Goliat estaSano.!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:00:25'!
+test_02_David_no_ataca_a_nadie
+	Goliat initialize.
+	David initialize.
+	
+	David atacar.
+	
+	Assert isTrue: Goliat estaSano.! !
+
+!methodRemoval: TestsCombatientesFantasticos class #test_02_Davida_no_ataca_a_nadie stamp: 'SGB 3/17/2024 14:00:25'!
+test_02_Davida_no_ataca_a_nadie
+	Goliat initialize.
+	David initialize.
+	
+	David atacar.
+	
+	Assert isTrue: Goliat estaSano.!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:00:30'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:00:30'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:00:30'!
+PASSED!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:00:43'!
+test_03_David_ataca_a_Goliat
+	Goliat initialize.
+	David initialize.
+	
+	David atacar.
+	
+	Assert isTrue: Goliat estaSano.! !
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:01:09' prior: 50528114!
+test_03_David_ataca_a_Goliat
+	Goliat initialize.
+	David initialize.
+	David asignarEnemigos: {Goliat}.
+	David atacar.
+	
+	Assert isTrue: Goliat estaSano.! !
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:01:15' prior: 50528122!
+test_03_David_ataca_a_Goliat
+	Goliat initialize.
+	David initialize.
+	David asignarEnemigos: {Goliat}.
+	David atacar.
+	
+	Assert isFalse: Goliat estaSano.! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:01:16'!
+ERROR!
+!David class methodsFor: 'public' stamp: 'SGB 3/17/2024 14:02:16' prior: 50528011!
+atacar
+	|enemigoAAtacar|
+	(conjuntoDeEnemigos size > 0)
+	ifTrue: [
+		(estrategiaMasHerido = true)
+		ifTrue: [
+			enemigoAAtacar := conjuntoDeEnemigos max: [
+				: enemigo | enemigo vidas ].
+			]
+		ifFalse: [
+			enemigoAAtacar := conjuntoDeEnemigos min: [
+				: enemigo | enemigo vidas ].
+			].
+		(enemigoAAtacar = nil)
+		ifFalse: [enemigoAAtacar recibirDaño: 4].
+	]! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:02:22'!
+ERROR!
+!Goliat class methodsFor: 'public' stamp: 'SGB 3/17/2024 14:02:34' prior: 50527973!
+vidas
+	^vidas! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:02:39'!
+ERROR!
+
+David atacar!
+!David class methodsFor: 'public' stamp: 'SGB 3/17/2024 14:04:33' prior: 50528142!
+atacar
+	|enemigoAAtacar|
+	(conjuntoDeEnemigos size > 0)
+	ifTrue: [
+		(estrategiaMasHerido = true)
+		ifTrue: [
+			enemigoAAtacar := conjuntoDeEnemigos max: [
+				: enemigo | enemigo vidas ]
+			]
+		ifFalse: [
+			enemigoAAtacar := conjuntoDeEnemigos min: [
+				: enemigo | enemigo vidas ]
+			].
+		(enemigoAAtacar = nil)
+		ifFalse: [enemigoAAtacar recibirDaño: 4].
+	]! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:04:38'!
+ERROR!
+
+----End fileIn of C:\Users\Sofia\Documents\Facultad\Fiuba\2024\1c\ing de software 1\windows64\Packages\TerseGuide.pck.st----!
+!David class methodsFor: 'public' stamp: 'SGB 3/17/2024 14:17:28' prior: 50528167!
+atacar
+	|enemigoAAtacar|
+	(conjuntoDeEnemigos size > 0)
+	ifTrue: [
+		(estrategiaMasHerido)
+		ifTrue: [
+			enemigoAAtacar := conjuntoDeEnemigos max: [
+				: enemigo | enemigo vidas ].
+			]
+		ifFalse: [
+			enemigoAAtacar := conjuntoDeEnemigos min: [
+				: enemigo | enemigo vidas ].
+			].
+		(enemigoAAtacar = nil)
+		ifFalse: [(conjuntoDeEnemigos at: enemigoAAtacar) recibirDaño: 4].
+	]! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:17:33'!
+ERROR!
+!David class methodsFor: 'public' stamp: 'SGB 3/17/2024 14:19:52' prior: 50531105!
+atacar
+	|enemigoAAtacar|
+	(conjuntoDeEnemigos size > 0)
+	ifTrue: [
+		(estrategiaMasHerido)
+		ifTrue: [
+			enemigoAAtacar := conjuntoDeEnemigos max: [
+				: enemigo | enemigo vidas ].
+			]
+		ifFalse: [
+			enemigoAAtacar := conjuntoDeEnemigos min: [
+				: enemigo | enemigo vidas ].
+			].
+		enemigoAAtacar ifNotNil: [
+            			enemigoAAtacar recibirDaño: 4.
+        		].
+	]! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:19:59'!
+ERROR!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:22:43' prior: 50528131!
+test_03_David_ataca_a_Goliat
+	Goliat initialize.
+	David initialize.
+	David asignarEnemigos: #(Goliat).
+	David atacar.
+	
+	Assert isFalse: Goliat estaSano.! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:22:47'!
+ERROR!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:24:11'!
+ERROR!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:26:04' prior: 50531142!
+test_03_David_ataca_a_Goliat
+	Goliat initialize.
+	David initialize.
+	David asignarEnemigos: #(Goliat) asSet.
+	David atacar.
+	
+	Assert isFalse: Goliat estaSano.! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:26:06'!
+ERROR!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:26:19' prior: 50531157!
+test_03_David_ataca_a_Goliat
+	Goliat initialize.
+	David initialize.
+	David asignarEnemigos: [Goliat.] asSet.
+	David atacar.
+	
+	Assert isFalse: Goliat estaSano.! !
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:26:22' prior: 50531169!
+test_03_David_ataca_a_Goliat
+	Goliat initialize.
+	David initialize.
+	David asignarEnemigos: [Goliat.].
+	David atacar.
+	
+	Assert isFalse: Goliat estaSano.! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:26:22'!
+ERROR!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:26:38' prior: 50531178!
+test_03_David_ataca_a_Goliat
+	Goliat initialize.
+	David initialize.
+	David asignarEnemigos: (Goliat) asSet.
+	David atacar.
+	
+	Assert isFalse: Goliat estaSano.! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:26:39'!
+ERROR!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:26:51' prior: 50531190!
+test_03_David_ataca_a_Goliat
+	Goliat initialize.
+	David initialize.
+	David asignarEnemigos: {Goliat} asSet.
+	David atacar.
+	
+	Assert isFalse: Goliat estaSano.! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:26:52'!
+ERROR!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:27:02' prior: 50531202!
+test_03_David_ataca_a_Goliat
+	Goliat initialize.
+	David initialize.
+	David asignarEnemigos: {Goliat}.
+	David atacar.
+	
+	Assert isFalse: Goliat estaSano.! !
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:27:06' prior: 50531214!
+test_03_David_ataca_a_Goliat
+	Goliat initialize.
+	David initialize.
+	David asignarEnemigos: {Goliat.}.
+	David atacar.
+	
+	Assert isFalse: Goliat estaSano.! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:27:08'!
+ERROR!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:28:04'!
+ERROR!
+!David class methodsFor: 'public' stamp: 'SGB 3/17/2024 14:29:33' prior: 50527943!
+asignarEnemigos: unConjuntoDeEnemigos
+	conjuntoDeEnemigos := unConjuntoDeEnemigos asSet.! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:29:39'!
+ERROR!
+!David class methodsFor: 'public' stamp: 'SGB 3/17/2024 14:30:57' prior: 50528003 overrides: 16916096!
+initialize
+	estrategiaMasHerido := true.
+	estrategiaMenosHerido := false.
+	conjuntoDeEnemigos:= Set new.! !
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:32:29' prior: 50531223!
+test_03_David_ataca_a_Goliat
+	Goliat initialize.
+	David initialize.
+	David asignarEnemigos: {Goliat}.
+	David atacar.
+	
+	Assert isFalse: Goliat estaSano.! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:32:34'!
+ERROR!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:32:42' prior: 50531255!
+test_03_David_ataca_a_Goliat
+	Goliat initialize.
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	
+	Assert isFalse: Goliat estaSano.! !
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:32:45' prior: 50531267!
+test_03_David_ataca_a_Goliat
+	
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	
+	Assert isFalse: Goliat estaSano.! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:32:46'!
+ERROR!
+!David class methodsFor: 'public' stamp: 'SGB 3/17/2024 14:34:58' prior: 50531123!
+atacar
+	|enemigoAAtacar|
+	(conjuntoDeEnemigos size > 0)
+	ifTrue: [
+		(estrategiaMasHerido = true)
+		ifTrue: [
+			enemigoAAtacar := conjuntoDeEnemigos max: [
+				: enemigo | enemigo vidas ].
+			]
+		ifFalse: [
+			enemigoAAtacar := conjuntoDeEnemigos min: [
+				: enemigo | enemigo vidas ].
+			].
+		enemigoAAtacar ifNotNil: [
+            			enemigoAAtacar recibirDaño: 4.
+        		].
+	]! !
+!David class methodsFor: 'public' stamp: 'SGB 3/17/2024 14:35:44' prior: 50531287!
+atacar
+	|enemigoAAtacar|
+	(conjuntoDeEnemigos size > 0)
+	ifTrue: [
+		(estrategiaMasHerido = true)
+		ifTrue: [
+			enemigoAAtacar := conjuntoDeEnemigos max: [
+				: enemigo | enemigo vidas ].
+			]
+		ifFalse: [
+			enemigoAAtacar := conjuntoDeEnemigos min: [
+				: enemigo | enemigo vidas ].
+			].
+		enemigoAAtacar print.
+		enemigoAAtacar ifNotNil: [
+            			enemigoAAtacar recibirDaño: 4.
+        		].
+	]! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:35:52'!
+ERROR!
+!David class methodsFor: 'public' stamp: 'SGB 3/17/2024 14:39:14' prior: 50531302!
+atacar
+	|enemigoAAtacar|
+	(conjuntoDeEnemigos size > 0)
+	ifTrue: [
+		(estrategiaMasHerido = true)
+		ifTrue: [
+			enemigoAAtacar := conjuntoDeEnemigos detectMax: [
+				: enemigo | enemigo vidas ].
+			]
+		ifFalse: [
+			enemigoAAtacar := conjuntoDeEnemigos detectMin: [
+				: enemigo | enemigo vidas ].
+			].
+		enemigoAAtacar print.
+		enemigoAAtacar ifNotNil: [
+            			enemigoAAtacar recibirDaño: 4.
+        		].
+	]! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:39:34'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:39:34'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:39:34'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:39:34'!
+PASSED!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:40:13'!
+test_04_David_ataca_a_Goliat_con_4
+	
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	
+	Assert isFalse: Goliat estaSano.! !
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:40:29' prior: 50531350!
+test_04_David_ataca_a_Goliat_con_4
+	
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	
+	Assert isTrue: Goliat vidas = 16.! !
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:41:16' prior: 50531359!
+test_04_David_ataca_a_Goliat_con_4
+	
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	
+	Assert isTrue: Goliat estaDañadoPor = 4.! !
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:42:15' prior: 50531368!
+test_04_David_ataca_a_Goliat_con_4
+	
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	
+	Assert isTrue: Goliat estaDañadoPor: 4.! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:42:25'!
+ERROR!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:42:33' prior: 50531377!
+test_04_David_ataca_a_Goliat_con_4
+	
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	
+	Assert isTrue: (Goliat estaDañadoPor: 4).! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:42:34'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:42:34'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:42:34'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:42:34'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:42:34'!
+PASSED!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:43:15'!
+test_05_Goliat_tiene_daño
+	
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	David atacar.
+		
+	Assert isTrue: (Goliat estaDañadoPor: 8).! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:43:15'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:43:16'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:43:16'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:43:16'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:43:16'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:43:16'!
+PASSED!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:43:36'!
+test_05_Goliat_esta_dañodo
+	
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	David atacar.
+		
+	Assert isTrue: (Goliat estaDañadoPor: 8).! !
+
+!methodRemoval: TestsCombatientesFantasticos class #test_05_Goliat_tiene_daño stamp: 'SGB 3/17/2024 14:43:36'!
+test_05_Goliat_tiene_daño
+	
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	David atacar.
+		
+	Assert isTrue: (Goliat estaDañadoPor: 8).!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:43:45'!
+test_05_Goliat_esta_dañado
+	
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	David atacar.
+		
+	Assert isTrue: (Goliat estaDañadoPor: 8).! !
+
+!methodRemoval: TestsCombatientesFantasticos class #test_05_Goliat_esta_dañodo stamp: 'SGB 3/17/2024 14:43:45'!
+test_05_Goliat_esta_dañodo
+	
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	David atacar.
+		
+	Assert isTrue: (Goliat estaDañadoPor: 8).!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:44:28'!
+test_02_Goliat_esta_sano
+	Goliat initialize.
+	Assert isTrue: Goliat estaSano.! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:44:28'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:44:29'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:44:29'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:44:29'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:44:29'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:44:29'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:44:29'!
+PASSED!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:44:40'!
+test_03_Goliat_esta_sano
+	Goliat initialize.
+	Assert isTrue: Goliat estaSano.! !
+
+!methodRemoval: TestsCombatientesFantasticos class #test_02_Goliat_esta_sano stamp: 'SGB 3/17/2024 14:44:40'!
+test_02_Goliat_esta_sano
+	Goliat initialize.
+	Assert isTrue: Goliat estaSano.!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:44:53'!
+test_02_Goliat_esta_sano
+	Goliat initialize.
+	Assert isTrue: Goliat estaSano.! !
+
+!methodRemoval: TestsCombatientesFantasticos class #test_03_Goliat_esta_sano stamp: 'SGB 3/17/2024 14:44:53'!
+test_03_Goliat_esta_sano
+	Goliat initialize.
+	Assert isTrue: Goliat estaSano.!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:45:07'!
+test_03_David_no_ataca_a_nadie
+	Goliat initialize.
+	David initialize.
+	
+	David atacar.
+	
+	Assert isTrue: Goliat estaSano.! !
+
+!methodRemoval: TestsCombatientesFantasticos class #test_02_David_no_ataca_a_nadie stamp: 'SGB 3/17/2024 14:45:07'!
+test_02_David_no_ataca_a_nadie
+	Goliat initialize.
+	David initialize.
+	
+	David atacar.
+	
+	Assert isTrue: Goliat estaSano.!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:45:15'!
+test_04_David_ataca_a_Goliat
+	
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	
+	Assert isFalse: Goliat estaSano.! !
+
+!methodRemoval: TestsCombatientesFantasticos class #test_03_David_ataca_a_Goliat stamp: 'SGB 3/17/2024 14:45:16'!
+test_03_David_ataca_a_Goliat
+	
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	
+	Assert isFalse: Goliat estaSano.!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:45:24'!
+test_05_David_ataca_a_Goliat_con_4
+	
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	
+	Assert isTrue: (Goliat estaDañadoPor: 4).! !
+
+!methodRemoval: TestsCombatientesFantasticos class #test_04_David_ataca_a_Goliat_con_4 stamp: 'SGB 3/17/2024 14:45:25'!
+test_04_David_ataca_a_Goliat_con_4
+	
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	
+	Assert isTrue: (Goliat estaDañadoPor: 4).!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:45:31'!
+test_06_Goliat_esta_dañado
+	
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	David atacar.
+		
+	Assert isTrue: (Goliat estaDañadoPor: 8).! !
+
+!methodRemoval: TestsCombatientesFantasticos class #test_05_Goliat_esta_dañado stamp: 'SGB 3/17/2024 14:45:31'!
+test_05_Goliat_esta_dañado
+	
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	David atacar.
+		
+	Assert isTrue: (Goliat estaDañadoPor: 8).!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:46:14'!
+test_03_Goliat_esta_dañado_por_0
+	Goliat initialize.
+	Assert isTrue: (Goliat estaDañadoPor: 0).! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:46:15'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:46:15'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:46:15'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:46:15'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:46:15'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:46:15'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:46:15'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:46:15'!
+PASSED!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:47:21'!
+test_01_Goliat_pierde_vidas
+	Goliat initialize.
+	
+	Goliat recibirDaño: 4.
+	
+	Assert isTrue: (Goliat vidas = 16).! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:47:22'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:47:22'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:47:22'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:47:22'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:47:22'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:47:22'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:47:22'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:47:22'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:47:22'!
+PASSED!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:47:53'!
+test_03_David_no_tiene_enemigos
+	Goliat initialize.
+	David initialize.
+	
+	David atacar.
+	
+	Assert isTrue: Goliat estaSano.! !
+
+!methodRemoval: TestsCombatientesFantasticos class #test_03_David_no_ataca_a_nadie stamp: 'SGB 3/17/2024 14:47:53'!
+test_03_David_no_ataca_a_nadie
+	Goliat initialize.
+	David initialize.
+	
+	David atacar.
+	
+	Assert isTrue: Goliat estaSano.!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:48:32'!
+test_03_Goliat_pierde_vidas
+	Goliat initialize.
+	
+	Goliat recibirDaño: 4.
+	
+	Assert isTrue: (Goliat vidas = 16).! !
+
+!methodRemoval: TestsCombatientesFantasticos class #test_01_Goliat_pierde_vidas stamp: 'SGB 3/17/2024 14:48:32'!
+test_01_Goliat_pierde_vidas
+	Goliat initialize.
+	
+	Goliat recibirDaño: 4.
+	
+	Assert isTrue: (Goliat vidas = 16).!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:48:41'!
+test_04_David_no_tiene_enemigos
+	Goliat initialize.
+	David initialize.
+	
+	David atacar.
+	
+	Assert isTrue: Goliat estaSano.! !
+
+!methodRemoval: TestsCombatientesFantasticos class #test_03_David_no_tiene_enemigos stamp: 'SGB 3/17/2024 14:48:41'!
+test_03_David_no_tiene_enemigos
+	Goliat initialize.
+	David initialize.
+	
+	David atacar.
+	
+	Assert isTrue: Goliat estaSano.!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:48:52'!
+test_04_Goliat_pierde_vidas
+	Goliat initialize.
+	
+	Goliat recibirDaño: 4.
+	
+	Assert isTrue: (Goliat vidas = 16).! !
+
+!methodRemoval: TestsCombatientesFantasticos class #test_03_Goliat_pierde_vidas stamp: 'SGB 3/17/2024 14:48:52'!
+test_03_Goliat_pierde_vidas
+	Goliat initialize.
+	
+	Goliat recibirDaño: 4.
+	
+	Assert isTrue: (Goliat vidas = 16).!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:49:01'!
+test_05_David_no_tiene_enemigos
+	Goliat initialize.
+	David initialize.
+	
+	David atacar.
+	
+	Assert isTrue: Goliat estaSano.! !
+
+!methodRemoval: TestsCombatientesFantasticos class #test_04_David_no_tiene_enemigos stamp: 'SGB 3/17/2024 14:49:01'!
+test_04_David_no_tiene_enemigos
+	Goliat initialize.
+	David initialize.
+	
+	David atacar.
+	
+	Assert isTrue: Goliat estaSano.!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:49:08'!
+test_06_David_ataca_a_Goliat
+	
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	
+	Assert isFalse: Goliat estaSano.! !
+
+!methodRemoval: TestsCombatientesFantasticos class #test_04_David_ataca_a_Goliat stamp: 'SGB 3/17/2024 14:49:08'!
+test_04_David_ataca_a_Goliat
+	
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	
+	Assert isFalse: Goliat estaSano.!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:49:20'!
+test_07_David_ataca_a_Goliat_con_4
+	
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	
+	Assert isTrue: (Goliat estaDañadoPor: 4).! !
+
+!methodRemoval: TestsCombatientesFantasticos class #test_05_David_ataca_a_Goliat_con_4 stamp: 'SGB 3/17/2024 14:49:20'!
+test_05_David_ataca_a_Goliat_con_4
+	
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	
+	Assert isTrue: (Goliat estaDañadoPor: 4).!
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:49:53'!
+test_08_Goliat_es_atacado_dos_veces
+	
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	David atacar.
+		
+	Assert isTrue: (Goliat estaDañadoPor: 8).! !
+
+!methodRemoval: TestsCombatientesFantasticos class #test_06_Goliat_esta_dañado stamp: 'SGB 3/17/2024 14:49:53'!
+test_06_Goliat_esta_dañado
+	
+	David initialize.
+	David asignarEnemigos: {Goliat initialize}.
+	David atacar.
+	David atacar.
+		
+	Assert isTrue: (Goliat estaDañadoPor: 8).!
+!David class methodsFor: 'public' stamp: 'SGB 3/17/2024 14:55:39'!
+agregarEnemigos: unConjuntoDeEnemigos
+	conjuntoDeEnemigos := unConjuntoDeEnemigos asSet.! !
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:55:39' prior: 50531752!
+test_07_David_ataca_a_Goliat_con_4
+	
+	David initialize.
+	David agregarEnemigos: {Goliat initialize}.
+	David atacar.
+	
+	Assert isTrue: (Goliat estaDañadoPor: 4).! !
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:55:40' prior: 50531735!
+test_06_David_ataca_a_Goliat
+	
+	David initialize.
+	David agregarEnemigos: {Goliat initialize}.
+	David atacar.
+	
+	Assert isFalse: Goliat estaSano.! !
+!TestsCombatientesFantasticos class methodsFor: 'as yet unclassified' stamp: 'SGB 3/17/2024 14:55:40' prior: 50531770!
+test_08_Goliat_es_atacado_dos_veces
+	
+	David initialize.
+	David agregarEnemigos: {Goliat initialize}.
+	David atacar.
+	David atacar.
+		
+	Assert isTrue: (Goliat estaDañadoPor: 8).! !
+
+!methodRemoval: David class #asignarEnemigos: stamp: 'SGB 3/17/2024 14:55:40'!
+asignarEnemigos: unConjuntoDeEnemigos
+	conjuntoDeEnemigos := unConjuntoDeEnemigos asSet.!
+!David class methodsFor: 'public' stamp: 'SGB 3/17/2024 14:56:13' prior: 50531787!
+agregarEnemigos: unConjuntoDeEnemigos
+	conjuntoDeEnemigos addAll: unConjuntoDeEnemigos asSet.! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:56:18'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:56:18'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:56:18'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:56:18'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:56:18'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:56:18'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:56:18'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:56:18'!
+PASSED!
+!David class methodsFor: 'public' stamp: 'SGB 3/17/2024 14:56:44'!
+agregarEnemigo: unEnemigo
+	conjuntoDeEnemigos add: unEnemigo.! !
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:57:11'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:57:11'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:57:11'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:57:11'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:57:11'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:57:11'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:57:11'!
+PASSED!
+
+!testRun: #DenotativeObjectTestCase #performRealTest stamp: 'SGB 3/17/2024 14:57:11'!
+PASSED!
+
+----QUIT----(17 March 2024 14:57:19) CuisUniversity-6169.image priorSource: 6263065!
+
+----STARTUP---- (17 March 2024 14:57:24) as C:\Users\Sofia\Documents\Facultad\Fiuba\2024\1c\ing de software 1\windows64\CuisUniversity-6169.image!
+
+
+----QUIT----(17 March 2024 14:57:32) CuisUniversity-6169.image priorSource: 6407448!
